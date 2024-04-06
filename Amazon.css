@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.logo{
+   
+background-image: url(amazonreal\ logo.png);
+height: 50px;
+width: 100%;
+background-size:cover; 
+}
+/* .rose{
+display: flex;
+margin-left:90px ;
+margin-bottom: 10px; */
+
+/* box2 */
+.nav-address{
+    margin-left:15px;
+    padding:8px ;
+}
+.nav-logo{
+height: 50px;
+width: 100px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    }
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    /* background-position: -71px -378px;
+    width: 15px;
+    height: 18px;
+    margin-top: 8px; */
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 695px;
+    font-size: 1rem;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.image{
+    display: flex;
+    width: 90px;
+height: 40px;
+}
+
+.flag{
+    height: 18PX;
+    width: 40PX;
+    display: flex;
+
+    margin: 12px;
+    padding-left: 15px;
+}
+
+.en{ 
+  margin-left: 4px;
+}
+
+.nav-signin{
+    padding: 12px;
+    margin-left: 2px;
+
+}
+.nav-returns{
+    padding: 12px;
+    margin-left:2px;
+}
+span{
+    font-size: 0.7rem;
+
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.border{
+        border: 2px solid transparent;
+    }
+.border:hover{
+    border: 1.5px solid white;
+    
+    }
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 12px;
+    margin-left:2px;
+    }
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    border: 2px solid transparent;
+
+}
+.panel-ops p:hover{
+    border: 1.5px solid white;
+
+}
+.panel-ops{
+    width: 70%;
+    font-size: 13px;
+    font-family: inherit;
+    
+}
+.panel-deals{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 2px solid transparent;
+}
+.panel-deals:hover{
+    border: 1.5px solid white; 
+}
+.hero-section{
+    background-image: url(top\ tared.jpg);
+    height: 220px;
+    background-size: cover;
+}
+.shop-section{
+    justify-content: space-evenly;
+    background-color:#007185;
+    display: flex;
+    flex-wrap:wrap ;
+}
+/* .shop secyion */
+.box{
+    /* border:2px solid black ; */
+    height: 390px;
+    width: 23%;
+    background-color:white ;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.times{
+    margin-bottom: 12px;
+}
+.box-img{
+    height: 302px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.cluster{
+    height: 124px;
+    width: 137px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.one{
+    margin-right: 11px; 
+       
+}
+/* .flexs{
+    margin-bottom: 12px;
+} */
+.three{
+    
+    margin-right: 11px;
+}
+.flex{
+    display: inline-block;
+    height: 153px;
+    width: 143.6px;
+    margin-left: 14px;
+}
+
+
+.Appliances{
+    height: 101px;
+    width: 139px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.Starting{
+    height: 101px;
+width: 138px;
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.flex p{
+    font-size: 11px;
+    margin-top: -12px;
+    text-align: center;
+    height: 67px;
+    width: 138px;
+    line-height: 18px; 
+}
+
+.word{
+    height: 34px;
+    width: 23px;
+}
+.seeall{
+    height: 18px;
+    width: 60px;
+    margin-top: 16px;
+
+}
+.all{
+    margin-top: 2px;
+}
+
+.decrease{
+    height: 273px;
+    width: 100%;
+
+}
+.decreasing{
+    height: 299px;
+    width: 100%;
+    background-size: cover;
+}
+.container{
+    height: 29px;
+    width: 290px;
+    background-color: yellow;
+    border-radius: 7px; 
+    color: #0f1111;
+    margin-top:10px ;
+    
+}
+.container a{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top:5px;
+    color:black;
+}
+.lapi{
+    height: 233px;
+    width: 100%;
+
+}
+.box-content{
+    margin-left: 1rem; 
+    margin-right: 1rem;
+}
+.box-content a{
+    font-size: 12px;
+    line-height: 19px;
+    color:#007185; ;
+    text-decoration: none;
+    
+}
+
+.box-content h2{
+        
+        color:#0f1111 ;
+        font-size: 19px;
+        line-height: 27.3px;
+}
+.box-content a:hover{
+    color: red;
+}
+.footer{
+    margin-top: 15px;
+}
+.bigpanel{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 220px;
+    background-size: cover;
+    margin-left: 22px;
+    margin-right: 22px;
+    
+    background-color: #f3f3f3;
+    
+}
+.sec{
+    background-color: #007185;
+}
+.menu{
+    height: 373px;
+    width: 1487px;
+background-color: #f3f3f3;
+margin-top: 17px; 
+}
+.ice{
+    height: 383px;
+
+}
+.one-more{
+    height: 319px;
+    width: 1343px;
+    padding: 20px 20px;
+
+}
+.deals{
+    width: 1420px;
+    height: 35px;
+    display: flex;}
+
+    .lucas{
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 35px;
+        width: 120px;
+        height: 50px;}
+    .pig{
+        width: 157px;
+
+        }
+    
+    .main-hero{
+        width: 1333px;
+        height: 210px;
+
+    }
+    .zebra{
+        margin-left: 19px;
+    }
+    .head{
+        display: flex;
+  margin-right: -180px;
+    }
+    
+    .mop{
+        height: 229px;
+         width: 218px;
+        background-repeat: no-repeat;
+        margin-right: 23px;
+    }
+    .khushi{
+        margin-left: 49px;
+    }
+    .liars{
+        margin-left: 65px;
+    }
+
+    .blokbuster{
+        margin: 9px;
+    }
+.deals a{
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 14px;
+    color:#007185;
+    line-height: 35px;
+
+}
+.deals p{
+    font-size: 18px;
+    font-weight: 497px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ball{
+    margin-top: 5px;
+height: 87px;
+width: 225px;
+}
+.outline{
+    
+display: flex;
+align-items: center;
+
+}
+.apple{
+    height: 18px;
+    width: 46px;
+    background-color: red;
+    border-radius:3px;
+    padding: 4px 6px;
+    
+}
+.apple a{  
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;  
+}
+.offer a{
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: 12px;
+color: red;
+}
+.elephant{
+    display: flex;
+    margin-top: 6px;
+
+}
+.cat{
+    font-weight: 50;
+}
+.dog{
+    font-size: 12px;
+    margin-left: 5px;
+    align-items: center;
+    margin-top: 4px;
+}
+.good{
+    height: 82px;
+width: 1325px;
+display: flex;
+}
+.ones {
+    width: 284px;
+height: 150px;
+}
+.pic1{
+    background-position: center;
+background-size: cover;
+height: 200px;
+background-size: cover;
+}
+.expho{
+    background-size: contain;
+background-position: inherit;
+margin-left: 12px;
+width: 140px;
+}
+.nivia{
+    background-size: contain;
+    background-position:center ;
+}
+.kumkumadi{
+    background-size: contain;
+    background-position:center;
+}
+.patcholi{
+    background-size: contain;
+background-position: center;
+height: 179px;
+margin-top: 22px;
+width: 123px
+}
+.fog{
+    background-position: center;
+background-size: contain;
+height: 231px;
+width: 291px;
+margin-bottom: 55px;
+margin-left: 15px;
+}
+.pic6{
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 235px;
+    margin-left: -17px;
+}
+.jungle{
+    height: 285px;
+    
+}
+.king{
+    height: 319px;
+    width: 1406px;
+    background-size: contain;
+
+}
+.purva{
+    padding: 18px 18px;
+color: wheat;
+}
+.blue{
+    background-position: center;
+height: 174px;
+width: 281px;
+margin-left: 13px;
+margin-top: 34px;
+}
+.seven{
+    height:398px ;
+}
+.flower{
+    height: 278px;
+width: 292px;
+background-size: cover;
+background-position: center;
+margin-left: 14px;
+
+  }
+  .lotus{
+    height: 303px;
+width: 292px;
+background-size: cover;
+    background-position: center;
+    margin-bottom: 3px;
+    margin-top: 25px;
+  }
+  .gold{
+    height: 276px;
+width: 293px;
+background-size: cover;
+background-position: center;
+  }  
+    .top{
+        height: 180px;
+  width: 206px;
+  background-size: contain;
+  margin: 2px;
+    margin-top: 2px;
+  margin-top: 2px;
+  margin-top: 13px;
+    }
+        .couple{
+        height: 250px;
+        width: 1460px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .times{
+        height: 239px;
+        width: 1472px;
+      }
+.worst{
+    height: 180px;
+    width: 180px;
+
+}
+.belly{
+    margin: 4px;
+
+
+}
+.dance{
+    margin: 3px;
+}
+.kathak{
+    margin-top: 4px;
+}
+.umbrella{
+    margin: 4px;
+}
+  .boy{
+    margin-top: 16px;
+
+  }
+  .jaggery{
+    height: 204px;
+    width: 248px;
+  }
+  .under{
+    margin-bottom: 33px;
+
+  }
+  .usav p{
+    margin-bottom: 3px;
+  }
+  .once{
+    width: 290px;
+    height: 206px;
+  }
+  
+  .hundred{
+    width: 368px;
+
+  }
+  .wolf{
+    height: 200px;
+    width: 100px;
+
+  }
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+
+}
+
+.foot-panel-list{
+    background-color: #222f3d;
+    columns: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.1px  solid #ddd;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(amazonreal\ logo.png);
+    height: 50px;
+    width: 100px;
+    background-size:cover; 
+   
+}
+ul p{
+    color: white;
+
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex; */
+    font-size: 0.7rem;
+    text-align: center;
+    height: 80px;
+    padding-top: 35px;
+
+}
+.pages a{
+    /* font-size: 0.7rem;
+    text-align: center; */
+    padding: 5px;
+    text-decoration: none;
+    color: #cccccc;
+    
+}
+.copyright{
+    /* padding-top: 5px;
+    font-size: 0.7rem; */
+    text-align: center;
+    padding-top: 1px;
+}
+.small{
+
+    height: 90px;
+width: 100px;
+margin-top: 8px;
+    
+
+}
+.boom{
+    height: 124px;
+width: 137px;
+
+}
+.lion{
+    height: 407px;
+
+}
+.mouse{
+    margin-top: 30px;
+    
+}
+.cheese{
+    margin-top: 48px;
+
+}
+.design{
+    height: 125px;
+    
+  }
+  .rascal{
+    margin-top: 35px;
+
+  }
+  .soon{
+    height: 423px;
+
+  }
+  .carrem{
+    margin-top: 34px;
+
+  }
+  .goon{
+    margin-top: 0px;
+
+  }
+  .twice{
+    width: 365px;
+
+  }
+  .thrice{
+    width: 325px;
+
+  }
+  .fourth{
+    width: 310px;
+
+  }
+  .luck{
+    width: 105px;
+  height: 209px;
+  margin-right: 39px;
+  }
+  .odd{
+    margin-right: 66px;
+
+  }
+  
+  .waking{
+    width: 81px;
+
+  }
+.akshu{
+    height: 304px;
+width: 292px;
+background-size: cover;
+background-position: center;
+
+}
+
+
+
